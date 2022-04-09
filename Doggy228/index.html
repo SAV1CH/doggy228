@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 7 gallery</title>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+    <!-- 
+        библиотека slick
+        https://kenwheeler.github.io/slick/
+
+        случайные картинки lorem picsum
+        https://picsum.photos
+     -->
+    <div class="gallery">
+        <div>
+            <img class="picture" src="https://i.picsum.photos/id/5/200/200.jpg?hmac=oN9VtXdJYLSFssji8vCr48JaI-e5Zi4eH9GAiYBB_Ig" alt="компуктер">
+        </div>
+        <div>
+            <img class="picture" src="https://i.picsum.photos/id/932/200/200.jpg?hmac=Qjhen49LkgtGGE52_mEJghx6A2xQoCVv1eTsAVG14-c" alt="дым">
+        </div>
+        <div>
+            <img class="picture" src="https://i.picsum.photos/id/979/200/200.jpg?hmac=WcPMB8O2ujsPsQzJm14ISP-kXmQ59P6G82VPGNwql4I" alt="небушко">
+        </div>
+        <div>
+            <img class="picture" src="https://i.picsum.photos/id/978/200/200.jpg?hmac=h9b7eQKX4lbS4Mwbqr-AkYHgvjigOrdECiTEtoboeME" alt="я">
+        </div>
+        <div>
+            <img class="picture" src="https://i.picsum.photos/id/689/200/200.jpg?hmac=2KHWG2UlfLNAWC1jiBz-LQ7b-TMOB4bcW-FVvdQ_7a4" alt="море">
+        </div>
+        <div>
+            <img class="picture" src="https://i.picsum.photos/id/340/200/200.jpg?hmac=8wghWAHHnmRpcl_sZApJLzQLqryeZqjaGMZo2wlZS3M" alt="мох">
+        </div>
+    </div>
+    
+	
+	<!-- для надежности добавил в ссылках префикс http: -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.gallery').slick({
+                
+            })
+        });
+      </script>
+</body>
+</html>
